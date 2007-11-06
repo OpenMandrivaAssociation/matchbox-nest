@@ -12,7 +12,7 @@ Group: 		Graphical desktop/Other
 Source: 	http://matchbox-project.org/sources/matchbox-nest/0.3/%{name}-%{version}.tar.bz2
 
 Buildroot: 	%_tmppath/%name-%version-buildroot
-BuildRequires:	libmatchbox-devel libxtst-devel
+BuildRequires:	libmatchbox-devel libxtst-devel expat-devel
 
 %description
 X nesting for the panel from Matchbox.
