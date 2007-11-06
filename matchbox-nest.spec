@@ -1,15 +1,15 @@
 %define name 	matchbox-nest
 %define version 0.3
-%define release 1mdk
+%define release %mkrel 2
 
 Summary: 	X nesting for the Matchbox Desktop
 Name: 		%name
 Version: 	%version
 Release: 	%release
-Url: 		http://matchbox.handhelds.org/
-License: 	GPL
+Url: 		http://matchbox-project.org
+License: 	GPLv2+
 Group: 		Graphical desktop/Other
-Source: 	%{name}-%{version}.tar.bz2
+Source: 	http://matchbox-project.org/sources/matchbox-nest/0.3/%{name}-%{version}.tar.bz2
 
 Buildroot: 	%_tmppath/%name-%version-buildroot
 BuildRequires:	libmatchbox-devel
@@ -36,4 +36,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS README ChangeLog
 %_bindir/*
 %_datadir/%name
-
