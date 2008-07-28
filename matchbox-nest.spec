@@ -1,6 +1,6 @@
 %define name 	matchbox-nest
 %define version 0.3
-%define release %mkrel 2
+%define release %mkrel 4
 
 Summary: 	X nesting for the Matchbox Desktop
 Name: 		%name
